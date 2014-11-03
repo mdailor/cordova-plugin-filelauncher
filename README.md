@@ -5,7 +5,7 @@ displays a picker dialog so the user can choose what to do with the file. My spe
 and then allow the user to open it with the PDF reader, e-mail it to someone, etc. Right now the plugin only supports
 Windows 8 as I was able to achieve the desired functionality on Android & iOS by writing the file with the standard
 Cordova "File" plugin (https://github.com/apache/cordova-plugin-file) and then launching it with plwin's 
-"FileLauncher2" plugin (https://github.com/pwlin/cordova-plugin-file-opener2).
+"FileOpener2" plugin (https://github.com/pwlin/cordova-plugin-file-opener2).
 
 CORDOVA/PHONEGAP PLUGIN ID:
 
