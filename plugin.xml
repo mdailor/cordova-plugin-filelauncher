@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.nextwavesoftware.filelauncher"
+    version="0.0.0">
+
+  <name>FileLauncher</name>
+  
+  <js-module src="www/filelauncher.js" name="filelauncher">
+    <clobbers target="navigator.filelauncher" />
+  </js-module>
+
+  <!-- windows -->
+  <platform name="windows8">
+    <js-module src="src/windows/FileLauncherProxy.js" name="FileLauncherProxy">
+      <merges target="" />
+    </js-module>
+  </platform>
+</plugin>
